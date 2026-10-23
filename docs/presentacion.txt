@@ -1,0 +1,2 @@
+Hola me llamo Sara, soy estudiente de DAM, estoy aprendiendo como programar en java, manejar bases de datos y HTML.
+En este portfolio muestro mis trabajos, mis aprendizajes y algunos de los proyectos que he realizado durante el curso.
