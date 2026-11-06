@@ -6,22 +6,22 @@
     <title>Sobre mí</title>
 </head>
 
-<body id="arriba">
+<body>
     
-    <header>
+    <header id="arriba">
         <h1>Sobre mí</h1>
         <nav aria-label="Navegación principal">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="entorno.html">Entorno</a></li>
                 <li><a href="sobre-mi.html" aria-current="page">Sobre mí</a></li>
                 <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="entorno.html">Entorno</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+        <a href="#contenido">Saltar al contenido</a>
     </header>
-    <a href="#contenido">Saltar al contenido</a>
     
     <main id="contenido">
         <h2>Índice de contenidos</h2>
@@ -29,28 +29,74 @@
         <ul>
             <li><a href="#trayectoria">Mi trayectoria</a></li>
             <li><a href="#aficiones">Mis aficiones</a></li>
+            <li><a href="#favoritos">Mis animes y videojuegos favoritos</a></li>
             <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#objetivos">Mis objetivos</a></li>
         </ul>
 
         <section id="trayectoria">
             <h2>Mi trayectoria</h2>
             <p>
-                Actualmente soy estudiante de <strong>DAM</strong> y estoy aprendiendo a crear páginas web utilizando HTML, a programar en java y manejar bases de datos.
+                Durante mi etapa en el Grado Medio <abbr title="Técnico en Sistemas Microinformáticos y Redes"><strong>TSMR</strong></abbr> he adquirido conocimientos sobre montaje 
+                y mantenimiento de equipos, instalación de sistemas operativos, redes informáticas y resolución de problemas técnicos. 
             </p>
             <p>
-                Durante el curso estoy realizando actividades para mejorar mis conocimientos.
+                Actualmente soy estudiante de <abbr title="Desarrollo de Aplicaciones Multiplataforma"><strong>DAM</strong></abbr> donde espero mejorar mis conocimientos de programación, 
+                aprender nuevos lenguajes como Java, profundizar en el manejo de bases de datos y adquirir experiencia en el desarrollo de aplicaciones. También me gustaría aprender a desarrollar 
+                videojuegos, ya que es uno de mis principales objetivos de futuro.
             </p>
+
         </section>
 
         <section id="aficiones">
             <h2>Mis aficiones</h2>
             <p>
             En mi tiempo libre suelo jugar a <strong>videojuegos</strong>, ver <strong>anime</strong> y leer
-            <strong>manga</strong>.
-            Y pues en algún fururo me gustaría poder aprender a programar para crear mis propios videojuegos
-            y que las demás personas los disfruten :).
+            <strong>manga</strong>. Además, actualmente estoy aprendiendo japonés por mi cuenta
+            porque me gustaría viajar a Japón algún día.
             </p>
         </section>
+
+        <section id="favoritos">
+            <h2>Mis animes y videojuegos favoritos</h2>
+
+            <p>
+                Además de estudiar programación, me gusta mucho
+                disfrutar de los videojuegos y del anime.
+                Aquí dejo algunos de mis favoritos.
+            </p>
+
+            <section>
+                <h3>Mi top 10 animes favoritos</h3>
+
+                <ol>
+                    <li>Fairy tail</li>
+                    <li>Bungou stray dogs</li>
+                    <li>One piece</li>
+                    <li>Naruto</li>
+                    <li>Fullmetal alchemist brotherhood</li>
+                    <li>Akame ga kill</li>
+                    <li>Kusuriya no hitorigoto</li>
+                    <li>Mushoku tensei</li>
+                    <li>Soul eater</li>
+                    <li>Munou na nana</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Mis videojuegos favoritos</h3>
+
+                <ul>
+                    <li>Osu!</li>
+                    <li>Touhou project</li>
+                    <li>Genshin Impact</li>
+                    <li>Undertale</li>
+                </ul>
+            </section>
+        </section>
+
+
+
 
         <section id="contacto">
             <h2>Contacto</h2>
@@ -58,17 +104,28 @@
                 Puedes contactar conmigo por correo electrónico:
                 <a href="mailto:hola@gmail.com">hola@gmail.com</a>
             </p>
+
+            <p>
+                Puedes visitar también mi 
+                <a href="https://github.com/Blubi-xx" target="_blank" rel="noopener noreferrer">perfil de GitHub</a>.
+            </p>
+
+            <p>
+                También me podrás encontrar en 
+                <a href="https://myanimelist.net/profile/Blubi_xx" target="_blank" rel="noopener noreferrer"><abbr title="My Anime List">MAL</abbr></a>.
+            </p>
+
         </section>
 
-        <p>
-            Puedes visitar también mi 
-            <a href="https://github.com/Blubi-xx" target="_blank" rel="noopener noreferrer">perfil de GitHub</a>.
-        </p>
-
-        <p>
-            Este es mi perfil de 
-            <a href="https://myanimelist.net/profile/Blubi_xx" target="_blank" rel="noopener noreferrer"><abbr title="My Anime List">MAL</abbr></a>.
-        </p>
+        <section id="objetivos">
+            <h2>Mis objetivos</h2>
+            <p>
+                Mi objetivo principal es mejorar mis conocimientos
+                de programación y aprender a desarrollar aplicaciones.
+                En el futuro me gustaría crear mi propio videojuego
+                y conseguir que otras personas puedan disfrutarlo.
+            </p>
+        </section>
 
         <p>
             <a href="docs/presentacion.txt" download>
@@ -76,13 +133,15 @@
             </a>
         </p>
 
+        
+
         <p><a href="#arriba">Volver arriba</a></p>
 
     </main>
     
     <footer>
         <!-- El &lt;3 es un corazon <3 -->
-        <p>&copy; Sara Solaz Serra 2026 &lt;3 &euro; </p>
+        <p>&copy; Sara Solaz Serra 2026 &lt;3</p>
         <p>
             GitHub:
             <a href="https://github.com/Blubi-xx" target="_blank" rel="noopener noreferrer">
