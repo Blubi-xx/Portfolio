@@ -37,3 +37,6 @@ Portfolio/
 
 ## Autoría
 Sara Solaz Serra · Curso 2026-2027
+
+## Portfolio publicado
+https://blubi-xx.github.io/Portfolio/
